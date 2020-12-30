@@ -1,0 +1,21 @@
+{
+  "name": "thresh-lib-cli",
+  "version": "1.0.0",
+  "repository": "git@github.com:ymm-tech/thresh-cli.git",
+  "author": "manbang-group",
+  "license": "MIT",
+  "main": "./bin/thresh-cli.js",
+  "bin": {
+    "thresh-cli": "./bin/thresh-cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^4.0.1",
+    "ora": "^4.0.3"
+  }
+}
